@@ -10,19 +10,19 @@ This guide will be about installing both Mac OS 9.2.2 and OS X 10.4 Tiger on thi
 
 ## Hardware
 
-<img src="images/powermacg4-open.jpg" width="500">
+<img src="images/powermacg4-open.jpg" width="600">
 
 The system can easily be open without any screws. Just pull the latch the case will open.
 
 ### CPU
 
-<img src="images/powermacg4-internal-top.jpg" width="500">
+<img src="images/powermacg4-internal-top.jpg" width="600">
 
 The CPU is a dual-core 1.25 GHz PowerPC G4. It is below the large passive heatsink. 
 
 ### Graphics card
 
-<img src="images/powermacg4-gfx.jpg" width="500">
+<img src="images/powermacg4-gfx.jpg" width="600">
 
 An AGP ATI Radeon 9000 Pro with 64 MB VRAM with DVI and [ADC](https://en.wikipedia.org/wiki/Apple_Display_Connector) ports powers the graphics portion.
 
@@ -32,7 +32,7 @@ I tried newer AGP 8x cards on this system but it does not work by default. Accor
 
 ### Storage Drive
 
-<img src="images/powermacg4-ssd.jpg" width="500">
+<img src="images/powermacg4-ssd.jpg" width="600">
 
 Storage is provided by a 512GB Crucial MX100 SATA SSD. 2.5" form factor is converted to 3.5" by a mounting bracket.
 
@@ -40,19 +40,19 @@ The SATA interface is converted to IDE via a [Startech SATA to IDE adapter](http
 
 The SSD is chosen for best speed and random IO access performance.
 
-<img src="images/powermacg4-ssd-installed.jpg" width="500">
+<img src="images/powermacg4-ssd-installed.jpg" width="600">
 
 The drive and adapter is then mounted onto a vertical drive cage.
 
 ### RAM
 
-<img src="images/powermacg4-ram.jpg" width="500">
+<img src="images/powermacg4-ram.jpg" width="600">
 
 2GB RAM is provided by 4 sticks of 512MB PC-2700 DDR SDRAM
 
 ### Slots
 
-<img src="images/powermacg4-slots.jpg" width="500">
+<img src="images/powermacg4-slots.jpg" width="600">
 
 The system has 4x 64-bit PCI slots which is pretty uncommon.
 
@@ -94,7 +94,7 @@ Many thanks to this [forum post](http://macos9lives.com/smforum/index.php/topic,
 
 #### 2. Once it starts, launch terminal to partition the disk.
 
-<img src="images/powermacg4-partitioning.jpg" width="500">
+<img src="images/powermacg4-partitioning.jpg" width="600">
 
 ```bash
 diskutil partitionDisk /dev/disk0 2 OS9Drivers HFS+ macos9 150G JHFS+ macosx 326.9G
@@ -106,17 +106,17 @@ The reason this has to be done through the Terminal is because Mac OS 9 drivers 
 
 #### 3. Continue with the setup utility to the end
 
-<img src="images/powermacg4-disk-selection.jpg" width="500">
+<img src="images/powermacg4-disk-selection.jpg" width="600">
 
 Remember to select the correct disk.
 
 #### 4. Install updates
 
-<img src="images/powermacg4-install-updates.png" width="500">
+<img src="images/powermacg4-install-updates.png" width="600">
 
 You may need to run the Software Update tool a few times to finish updating all software.
 
-<img src="images/powermacg4-system-about.jpg" width="500">
+<img src="images/powermacg4-system-about.jpg" width="600">
 
 Here is a fully updated OS X 10.4.11 Tiger installation.
 
@@ -128,7 +128,7 @@ Once OS X is installed, we can proceed directly to Mac OS 9.
 
 The Mac OS 9 System and Application folders have to be copied from the `Mac OS 9.2.2 For Previously Unsupported G4s` ISO's internal restore image file `MacOS9LivesMR.img` to the OS 9 partition.
 
-<img src="images/powermacg4-install-os9.jpg" width="500">
+<img src="images/powermacg4-install-os9.jpg" width="600">
 
 Mount the successive images bit by bit then copy into the partition.
 
@@ -154,11 +154,11 @@ sudo bless -folder9 /Volumes/macos9/System\ Folder --setBoot
 sudo reboot
 ```
 
-This command will subsequently be used whenever we want to switch to boot from Mac OS 9.
+This command will subsequently be used whenever we want to switch to boot from Mac OS 9. For convenience, this can be placed into a shell script.
 
 After rebooting, complete the registration. The system did hang for me here after the registration window. I just did a hard reset of the system.
 
-<img src="images/powermacg4-os-9-properties.png" width="500">
+<img src="images/powermacg4-os-9-properties.png" width="600">
 
 If all goes well, you will get the retro Classic desktop!
 
@@ -166,7 +166,7 @@ If all goes well, you will get the retro Classic desktop!
 
 Go to Apple Menu -> Control Panels -> Startup disk
 
-<img src="images/powermacg4-os9-startup-disk.png" width="500">
+<img src="images/powermacg4-os9-startup-disk.png" width="600">
 
 Select the disk to boot from. This technique will be subsequently used to switch to Tiger after booting to OS 9.
 
@@ -176,13 +176,13 @@ The Mac OS 9 System and Application folders have to be copied from the `Mac OS 9
 
 After that run the `Classic` applet from `System Preferences`.
 
-<img src="images/powermacg4-classic.jpg" width="500">
+<img src="images/powermacg4-classic.jpg" width="600">
 
 Configure the applet to the location of the OS 9 system files then start it.
 
 ### Mac OS X System optimisation
 
-Not really part of this section but could be tangentially relevant.
+Not directly related to this guide but could be tangentially relevant.
 
 1. Show hidden files in Finder
 
@@ -220,7 +220,7 @@ After this, the system will boot from the first bootable partition which is OS 9
 
 Open Firmware can be thought as of something like a command-line based bootloader or BIOS which allows you to issue boot commands before system start.
 
-<img src="images/powermacg4-openfw.jpg" width="500">
+<img src="images/powermacg4-openfw.jpg" width="600">
 
 It is normally entered by pressing ⌘ + option + O + F on start. On my system, it is exceedingly difficult for me to enter this mode for some reason.
 
@@ -230,7 +230,7 @@ If this mode can be entered, the OS can be selected on start using the `multi-bo
 
 The heat sink for the CPU is passive hence it relies on another fan attached to another part of the case below the external CD drive for airflow.
 
-<img src="images/powermacg4-open-overheat.jpg" width="500">
+<img src="images/powermacg4-open-overheat.jpg" width="600">
 
 When the case is fully closed, this is not a problem. However when the system is on and the case is open in this photo, there is no airflow to push the hot air away.
 
