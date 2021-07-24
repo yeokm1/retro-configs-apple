@@ -28,7 +28,7 @@ An AGP ATI Radeon 9000 Pro with 64 MB VRAM with DVI and [ADC](https://en.wikiped
 
 Notice the card has an extra tab beside the AGP slot. It is for the card to draw extra power to supply to an external ADC monitor.
 
-I tried newer AGP 8x cards on this system but it does not work by default. According to [Wikipedia](https://en.wikipedia.org/wiki/Apple_Display_Connector#Pin_3_and_11), this is because some pins which are not used by AGP 4x are used by the system to send power for the external ADC monitor. These pins are now used in AGP 8x hence ane not compatible.
+I tried newer AGP 8x cards on this system but it does not work by default. According to [Wikipedia](https://en.wikipedia.org/wiki/Apple_Display_Connector#Pin_3_and_11), this is because some pins which are not used by AGP 4x are used by the system to send power for the external ADC monitor. These pins are now used in AGP 8x hence are not compatible.
 
 ### Storage Drive
 
