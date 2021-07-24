@@ -12,6 +12,8 @@ This guide will be about installing both Mac OS 9.2.2 and OS X 10.4 Tiger on thi
 
 <img src="images/powermacg4-open.jpg" width="500">
 
+The system can easily be open without any screws. Just pull the latch the case will open.
+
 ### CPU
 
 <img src="images/powermacg4-internal-top.jpg" width="500">
