@@ -218,7 +218,7 @@ After this, the system will boot from the first bootable partition which is OS 9
 
 As this machine does not officially support native OS 9 booting, no option is given to reboot to the OS 9 partition even if all files are there.
 
-Use the bless command mentioned previously:
+Use the bless command mentioned previously to force the option:
 
 ```bash
 sudo bless -folder9 /Volumes/macos9/System\ Folder --setBoot
