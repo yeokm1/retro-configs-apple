@@ -16,7 +16,7 @@ With OS X Tiger 10.4.
 
 <img src="images/powerbookg4ti-os9.jpg" width="600">
 
-With OS X 9.
+With OS 9.
 
 ### Storage Drive
 
