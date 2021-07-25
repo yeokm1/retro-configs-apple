@@ -6,6 +6,10 @@ This guide will be about installing both Mac OS 9.2.2 and OS X 10.4 Tiger on thi
 
 ## Hardware
 
+* CPU: Single-core 1 GHz PowerPC G4
+* Graphics: ATI Radeon 9000 with 64 MB of DDR SDRAM
+* RAM: 1GB 2x 512MB PC-133
+
 <img src="images/powerbookg4ti-osx.jpg" width="600">
 
 With OS X Tiger 10.4.
@@ -13,11 +17,6 @@ With OS X Tiger 10.4.
 <img src="images/powerbookg4ti-os9.jpg" width="600">
 
 With OS X 9.
-
-* CPU: Single-core 1 GHz PowerPC G4
-* Graphics:
-* RAM: 1GB 2x 512MB PC-133
-
 
 ### Storage Drive
 
@@ -90,7 +89,7 @@ Once OS X is installed, we can proceed directly to Mac OS 9.
 
 #### 1. Boot from OS 9 install CD
 
-Boot from the  `Mac OS 9.2.2 Universal Install for the Classic Environment` ISO.
+Boot from the `Mac OS 9.2.2 Universal Install for the Classic Environment` ISO.
 
 <img src="images/powerbookg4ti-select-os9-cd.jpg" width="600">
 
@@ -148,7 +147,7 @@ One can press the Option key immediately on machine start.
 
 <img src="images/powerbookg4ti-boot-menu.jpg" width="600">
 
-The boot menu will show the available boot options. Selecting any choice will make it the default on the next system start.
+The boot menu will show the available boot options.
 
 ### Mac OS 9 Classic Environment in OS X
 
