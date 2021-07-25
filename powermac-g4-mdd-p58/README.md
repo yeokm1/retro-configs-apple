@@ -194,7 +194,7 @@ killall Finder
 * [TenFourFox](https://www.floodgap.com/software/tenfourfox/): One of the last updated browsers for OS 10.4
 * [Iterm1](http://iterm.sourceforge.net/): To replace the default Terminal
 * [VLC 0.9.10](https://www.videolan.org/vlc/download-macosx.html): Media player
-* [iStat Menus](https://macintoshgarden.org/apps/istat-menus)
+* [iStat Menus](https://macintoshgarden.org/apps/istat-menus): Display live system stats
 
 ## Possible Issues
 
