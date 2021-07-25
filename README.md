@@ -12,3 +12,11 @@ If OS 9 has to be used, it can only be officially done though the Classic enviro
 However native OS 9.2.2 booting can still be done with some workarounds.
 
 I will install both Mac OS 9.2.2 and OS X 10.4 Tiger on this system as a dual boot configuration.
+
+# 2. [PowerBook G4 A1025 (Titanium)](powerbook-g4-titanium-a1025) (2003)
+
+<img src="powerbook-g4-titanium-a1025/images/powerbookg4ti-os9.jpg" width="600">
+
+This laptop was released in Nov 2002 and is the last of the PowerBook G4 line that can natively boot into Mac OS 9.
+
+This guide will be about installing both Mac OS 9.2.2 and OS X 10.4 Tiger on this system as a dual boot configuration.

@@ -38,8 +38,6 @@ Storage is provided by a 512GB Crucial MX100 SATA SSD. 2.5" form factor is conve
 
 The SATA interface is converted to IDE via a [Startech SATA to IDE adapter](https://www.startech.com/en-sg/hdd/ide2sat2).
 
-The SSD is chosen for best speed and random IO access performance.
-
 <img src="images/powermacg4-ssd-installed.jpg" width="600">
 
 The drive and adapter is then mounted onto a vertical drive cage.
@@ -62,7 +60,7 @@ I added a [Startech PCI USB 2.0 card](https://www.startech.com/en-us/cards-adapt
 
 ### Mac OS X Tiger 10.4
 
-There is a 5-CD version that will fully install everything up to the latest 10.4.11. However to avoid the hassle of reinserting CDs, I opted to use the 10.4.6 DVD image as that is easier to install one shot.
+I opted to use the 10.4.6 DVD image over the 4-CD version to reduce the hassle of reinserting discs.
 
 After installation, the OS can be updated to 10.4.11 as Apple's update servers are still active.
 
