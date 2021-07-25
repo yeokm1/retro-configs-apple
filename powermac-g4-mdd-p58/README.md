@@ -214,7 +214,7 @@ After this, the system will boot from the first bootable partition which is OS 9
 
 ### OS X cannot reboot to OS 9
 
-<img src="images/powermacg4-os9-startup-disk.png" width="600">
+<img src="images/powermacg4-osx-startup-disk.png" width="600">
 
 As this machine does not officially support native OS 9 booting, no option is given to reboot to the OS 9 partition even if all files are there.
 
