@@ -154,8 +154,6 @@ sudo bless -folder9 /Volumes/macos9/System\ Folder --setBoot
 sudo reboot
 ```
 
-This command will subsequently be used whenever we want to switch to boot from Mac OS 9. For convenience, this can be placed into a shell script.
-
 After rebooting, complete the registration. The system did hang for me here after the registration window. I just did a hard reset of the system.
 
 <img src="images/powermacg4-os-9-properties.png" width="600">
@@ -194,11 +192,9 @@ killall Finder
 2. Install the last versions of some apps for Tiger OS
 
 * [TenFourFox](https://www.floodgap.com/software/tenfourfox/): One of the last updated browsers for OS 10.4
-
 * [Iterm1](http://iterm.sourceforge.net/): To replace the default Terminal
-
-* [VLC 0.9.10](https://www.videolan.org/vlc/download-macosx.html): Media player 
-
+* [VLC 0.9.10](https://www.videolan.org/vlc/download-macosx.html): Media player
+* [iStat Menus](https://macintoshgarden.org/apps/istat-menus)
 
 ## Possible Issues
 
@@ -215,6 +211,21 @@ The NVRAM may be corrupted and a reset may be necessary.
 3. Continue holding the keys until your Mac restarts for the second time. The chime will sound upon restart.
 
 After this, the system will boot from the first bootable partition which is OS 9 in my case.
+
+### OS X cannot reboot to OS 9
+
+<img src="images/powermacg4-os9-startup-disk.png" width="600">
+
+As this machine does not officially support native OS 9 booting, no option is given to reboot to the OS 9 partition even if all files are there.
+
+Use the bless command mentioned previously:
+
+```bash
+sudo bless -folder9 /Volumes/macos9/System\ Folder --setBoot
+sudo reboot
+```
+
+For convenience, this can be placed into a shell script.
 
 ### Cannot enter Open Firmware
 
