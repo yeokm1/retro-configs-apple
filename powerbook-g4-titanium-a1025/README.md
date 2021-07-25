@@ -42,7 +42,7 @@ https://macintoshgarden.org/apps/mac-osx-mac-os-10-ppc
 
 For the OS 9.2.2 disk, I opted to use the image from [MacOS9Lives forum](http://macos9lives.com/smforum/index.php/topic,4366.0.html) as they are ISO images and are easier to work with on modern systems.
 
-Since this machine can natively boot into Mac OS 9, I used the [Mac OS 9.2.2 Universal Install for the Classic Environment](http://macos9lives.com/smforum/index.php/topic,2109.0.html)
+Since this machine can natively boot into Mac OS 9, I used the [Mac OS 9.2.2 Universal Install](http://macos9lives.com/smforum/index.php/topic,2109.0.html) for the Classic Environment.
 
 ## Installation
 
@@ -51,7 +51,7 @@ Here are the high level steps I used to install both operating systems.
 1. Boot from Tiger OS disk and partition disk
 2. Complete Tiger OS installation and all updates
 3. Boot from Mac OS 9 install CD and complete the installation.
-5. If Classic Environment is desired, copy OS9 Systems Folder to the partition and setup Classic.
+5. If Classic Environment is desired, copy OS9 Systems Folder to the OS X partition and setup Classic.
 
 ### Mac OS X 10.4 Tiger
 
