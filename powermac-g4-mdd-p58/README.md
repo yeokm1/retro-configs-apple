@@ -176,24 +176,6 @@ After that run the `Classic` applet from `System Preferences`.
 
 Configure the applet to the location of the OS 9 system files then start it.
 
-### Mac OS X System optimisation
-
-Not directly related to this guide but could be tangentially relevant.
-
-1. Show hidden files in Finder
-
-```bash
-defaults write com.apple.Finder AppleShowAllFiles true
-killall Finder
-```
-
-2. Install the last versions of some apps for Tiger OS
-
-* [TenFourFox](https://www.floodgap.com/software/tenfourfox/): One of the last updated browsers for OS 10.4
-* [Iterm1](http://iterm.sourceforge.net/): To replace the default Terminal
-* [VLC 0.9.10](https://www.videolan.org/vlc/download-macosx.html): Media player
-* [iStat Menus](https://macintoshgarden.org/apps/istat-menus): Display live system stats
-
 ## Possible Issues
 
 ### Black screen on boot
