@@ -13,7 +13,7 @@ However native OS 9.2.2 booting can still be done with some workarounds.
 
 I will install both Mac OS 9.2.2 and OS X 10.4 Tiger on this system as a dual boot configuration.
 
-# 2. [PowerBook G4 A1025 (Titanium)](powerbook-g4-titanium-a1025) (2003)
+# 2. [PowerBook G4 A1025 (Titanium)](powerbook-g4-titanium-a1025) (2002)
 
 <img src="powerbook-g4-titanium-a1025/images/powerbookg4ti-os9.jpg" width="600">
 
