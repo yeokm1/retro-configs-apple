@@ -21,6 +21,13 @@ This laptop was released in Nov 2002 and is the last of the PowerBook G4 line th
 
 This guide will be about installing both Mac OS 9.2.2 and OS X 10.4 Tiger on this system as a dual boot configuration.
 
+# 3. [12" iBook G4](ibook-g4-a1054) (Late 2004)
+
+<img src="ibook-g4-a1054/images/ibookg4-system.jpg" width="600">
+
+This laptop was released in Oct 2004. It cannot natively boot from Mac OS 9.
+
+This guide will be about installing both OS X 10.4 Tiger and Classic Mode on this system.
 
 ## Common Software
 
