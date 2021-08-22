@@ -11,7 +11,7 @@ This guide will be about installing both OS X 10.4 Tiger and Classic Mode on thi
 
 * CPU: Single-core 1.2 GHz PowerPC G4
 * Graphics: ATI Mobility Radeon 9200 with 32 MB of DDR SDRAM
-* RAM: 768MB DDR PC2700
+* RAM: 256MB built-in + 512MB DDR PC2700 SODIMM
 * Screen: 12" 1024x768
 
 <img src="images/ibookg4-osx-tiger.png" width="600">
