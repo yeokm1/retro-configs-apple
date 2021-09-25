@@ -1,4 +1,3 @@
-
 # 12" iBook G4 (Late 2004)
 
 This laptop was released in Oct 2004. It cannot natively boot from Mac OS 9.
