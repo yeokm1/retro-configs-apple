@@ -131,7 +131,7 @@ sudo chown yourusername ~/windows.vmdk
 
 We have to repeatedly unmount and change the permissions as it will revert back to default every time we use it.
 
-<img src="images/mb08-vbox-system-setup.png" width="500">
+<img src="images/mb08-vbox-system-setup.png" width="700">
 
 Configure the system parameters to use Windows 10 32 bit.
 
@@ -139,7 +139,7 @@ Configure the system parameters to use Windows 10 32 bit.
 
 Add an IDE drive loaded with Windows 10 ISO.
 
-<img src="images/mb08-vbox-hdd.png" width="500">
+<img src="images/mb08-vbox-hdd.png" width="700">
 
 Add the virtual disk file as a hard disk.
 
@@ -168,7 +168,7 @@ Format the Bootcamp partition with NTFS.
 
 <img src="images/mb08-win-install-installing.png" width="500">
 
-This process can take a long time due to slow disk access. **Do not let the system to enter standby.** This will cause the external disk to be unmounted and fail the install.
+This process can take a long time due to slow disk access. **Do not let the system enter standby.** This will cause the external disk to be unmounted thus failing the install.
 
 <img src="images/mb08-win-install-restart.png" width="500">
 
