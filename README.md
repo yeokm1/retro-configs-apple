@@ -33,7 +33,7 @@ This guide will be about installing both OS X 10.4 Tiger and Classic Mode on thi
 
 <img src="macbook-2008/images/mb08-system.jpg" width="500">
 
-This Macbook was released in early 2004. This black version is relatively uncommon and cost more then.
+This Macbook was released in early 2008. This black version is relatively uncommon and cost more then.
 
 This machine is installed with 10.6 Snow Leopard and Windows 10 32-bit Bootcamp.
 
