@@ -1,6 +1,6 @@
 # Macbook (Early 2008)
 
-This Macbook was released in early 2004. This black version is relatively uncommon and cost more then.
+This Macbook was released in early 2008. This black version is relatively uncommon and cost more then.
 
 <img src="images/mb08-system.jpg" width="500">
 
@@ -24,15 +24,15 @@ OS X installation goes first.
 
 #### Producing OS X install medium
 
-I got the 10.6.3 DMG from the page on [Macintosh Garden Snow Leapard](https://macintoshgarden.org/apps/apple-osx-snow-leopard) page. It's not the latest but the OS can be updated later after installation.
+I got the 10.6.3 DMG from the page on [Macintosh Garden Snow Leopard](https://macintoshgarden.org/apps/apple-osx-snow-leopard) page. It's not the latest but the OS can be updated later after installation.
 
 I plan to install from a USB flash drive hence this DVD image has to be properly written to it.
 
-<img src="images/mb08-scan-sl-dvd.png" width="400">
+<img src="images/mb08-scan-sl-dvd.png" width="500">
 
 It seems we have to use the `Scan Image for Restore` in Disk Utility first. This function does not work on newer Mac OS X versions for this DMG though, something from that era is required.
 
-<img src="images/mb08-flash-sl-dvd.png" width="400">
+<img src="images/mb08-flash-sl-dvd.png" width="500">
 
 Then start writing to the USB flash drive.
 
@@ -40,19 +40,19 @@ Then start writing to the USB flash drive.
 
 Reboot the machine and press the `Option` key on start. Select the USB flash drive to boot from it.
 
-<img src="images/mb08-disk-utility.jpg" width="400">
+<img src="images/mb08-disk-utility.jpg" width="500">
 
 Go to Disk Utility to create a partition for the entire disk.
 
-<img src="images/mb08-sl-disk-selection.jpg" width="400">
+<img src="images/mb08-sl-disk-selection.jpg" width="500">
 
 Select that partition to install to.
 
-<img src="images/mb08-sl-customise.jpg" width="400">
+<img src="images/mb08-sl-customise.jpg" width="500">
 
 I opted to customise the installation to add other optional components.
 
-<img src="images/mb08-sl-bootup.jpg" width="400">
+<img src="images/mb08-sl-bootup.jpg" width="500">
 
 The fresh post-install will look cleaner than this but this is an idea what it should like.
 
@@ -81,7 +81,7 @@ The [Refind boot loader](https://www.rodsbooks.com/refind/installing.html) shoul
 
 #### Bootcamp configuration
 
-<img src="images/mb08-bootcamp.png" width="400">
+<img src="images/mb08-bootcamp.png" width="500">
 
 I opt to run the Bootcamp configuration to help me partition the disk. Bootcamp behind-the-scenes will setup the disk to use a GPT-MBR hybrid partition system so Windows will boot using BIOS instead of EFI.
 
