@@ -85,7 +85,7 @@ The [Refind boot loader](https://www.rodsbooks.com/refind/installing.html) shoul
 
 I opt to run the Bootcamp configuration to help me partition the disk. Bootcamp behind-the-scenes will setup the disk to use a GPT-MBR hybrid partition system so Windows will boot using BIOS instead of EFI.
 
-Typically, one would prefer to use EFI-moon to start Windows however since there is a EFI-boot issue for Windows 10 on this older Mac, I'll stick to the conventional MBR-BIOS boot.
+Typically, one would prefer to use EFI-boot to start Windows however since there is an EFI-boot issue for Windows 10 on this older Mac, I'll stick to the conventional MBR-BIOS boot.
 
 #### Connecting the 2 machines
 
