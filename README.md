@@ -37,6 +37,12 @@ This Macbook was released in early 2008. This black version is relatively uncomm
 
 This machine is installed with 10.6 Snow Leopard and Windows 10 32-bit Bootcamp.
 
+# 5. [Mac LC III (1993)](mac-lc-iii)
+
+<img src="mac-lc-iii/images/external/lc3-set.jpg" width="500">
+
+This is a pizza-boxed size desktop Mac released in 1993.
+
 ## Common Software
 
 ### Mac OS X System optimisation
