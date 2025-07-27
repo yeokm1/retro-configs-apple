@@ -41,7 +41,11 @@ The original unit was extremely dusty and could not be powered on.
 
 <img src="images/original/lc3-original-internal.jpg" width="500">
 
-The following repairs were executed.
+Before.
+
+<img src="images/repaired/mac-lc3-repaired-all-in.jpg" width="500">
+
+After making some repairs and part replacements.
 
 ### Re-cap
 
