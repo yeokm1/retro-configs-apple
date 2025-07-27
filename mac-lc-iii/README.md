@@ -12,7 +12,7 @@ This is a pizza-boxed size desktop Mac released in 1993.
 
 ### Network
 
-Farallon PCD Ethernet card
+Farallon PDS Ethernet card
 
 <img src="images/network/lc3-network-front.jpg" height="200">
 <img src="images/network/lc3-network-side.jpg" height="200">
