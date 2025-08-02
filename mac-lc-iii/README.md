@@ -98,3 +98,7 @@ Heatsinks were added to main ICs to extend longevity.
 I did intermediate testing as I was replacing the components to ensure everything still worked.
 
 <img src="images/repaired/mac-lc3-repaired-testing.jpg" width="500">
+
+## References
+
+1.[Recap Guide](https://recapamac.com.au/macintosh-lciii/) 
