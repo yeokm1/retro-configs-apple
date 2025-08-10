@@ -4,6 +4,11 @@ This is a pizza-boxed size desktop Mac released in 1993.
 
 <img src="images/external/lc3-set.jpg" width="500">
 
+[![](http://img.youtube.com/vi/5h98MesdBgY/0.jpg)](https://www.youtube.com/watch?v=5h98MesdBgY)
+
+Video of my talk on this subject.
+
+
 ## Hardware 
 
 * 25 MHz 68030 CPU
