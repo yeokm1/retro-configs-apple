@@ -99,11 +99,12 @@ A PS/2 extension cable is used to bring out the keyboard connector to the back o
 
 ### Additional Faults
 
-After some effort in fault diagnosis, I found the following issues:
+After fault diagnosis, I found the following issues which requires part replacements:
 
 * MOS 6502
 * 4116 RAM
 * Signetics 8T97 replaced with 74LS367
+* Dead speaker
 
 Keyboard with these unfixed issues: 1,*,a,sticky g,c,sticky m, intermittent spacebar
 
