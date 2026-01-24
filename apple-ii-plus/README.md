@@ -8,7 +8,7 @@ AppleDOS 3.3 loaded from Floppy Emu.
 
 <img src="images/a2p-back.jpg" width="600">
 
-Back of the machine containing extension cables for PS/2, Floppy, USB mouse and HDMI.
+Back of the machine containing extension cables for PS/2 keyboard, Floppy, USB mouse and HDMI.
 
 ## Hardware
 
