@@ -6,6 +6,10 @@ This is one of the earliest Apple machines. The Apple II Plus was the second gen
 
 AppleDOS 3.3 loaded from Floppy Emu.
 
+<img src="images/a2p-back.jpg" width="600">
+
+Back of the machine containing extension cables for PS/2, Floppy, USB mouse and HDMI.
+
 ## Hardware
 
 <img src="images/a2p-mobo-roms-replaced.jpg" width="400">
@@ -77,7 +81,7 @@ I used a breadboard to combine the signals PS/2 controller and Power LED of the 
 
 A PS/2 extension cable is used to bring out the keyboard connector to the back of the case.
 
-### Faults
+### Additional Faults
 
 After some effort in fault diagnosis, I found the following issues:
 
