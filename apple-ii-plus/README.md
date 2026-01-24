@@ -77,7 +77,7 @@ The original keyboard had many failed keys. Instead of time-consuming efforts to
 
 The PS/2 keyboard converter was however too tall to be installed directly on the motherboard as the clearance between the keyboard and the motherboard is too tight. Hence it has to be installed elsewhere. I also want to retain the use of the original power LED on the keyboard.
 
-I used a breadboard to combine the signals PS/2 controller and Power LED of the original keyboard.
+I used a breadboard to combine the signals of PS/2 controller and Power LED of the original keyboard to interface with the motherboard's keyboard header.
 
 <img src="images/a2p-keyb-breadboard-install-2.jpg" width="500">
 
