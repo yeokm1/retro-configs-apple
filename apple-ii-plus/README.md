@@ -29,6 +29,8 @@ A relatively recent Apple II Plus 820-0044-D motherboard with ROMs replaced.
 
 Apple II Saturn Rocket 128K RAM used as 16K expansion card. Obtained from [here](https://www.tindie.com/products/retro_devices/apple-2-ii-plus-e-iie-2e-saturn-rocket-128k-ram/).
 
+A card like this is almost usually required to run software like ProDOS.
+
 <img src="images/a2p-a2dviplus.jpg" width="500">
 
 Apple II DVI Plus to enable use with modern HDMI monitor. This card also supports the 80-column text mode.
