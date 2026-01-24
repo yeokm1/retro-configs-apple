@@ -25,11 +25,29 @@ A relatively recent Apple II Plus 820-0044-D motherboard with ROMs replaced.
 
 ### Expansion cards
 
+Some of the cards are recommended to be placed into specific slots as some hardware/software require that configuration.
+
+| Slot | Card                                  | Slot Position Requirement |
+|------|---------------------------------------|---------------------------|
+| 0    | Apple II Saturn Rocket                | Mandatory                 |
+| 1    | A2Pico (Z80 Appli-Card)               | None                      |
+| 2    | A2DVI Plus                            | None                      |
+| 3    | 80-column card                        | Mandatory                 |
+| 4    | A2Pico (Mouse interface)              | Recommended               |
+| 5    | Empty                                 | -                         |
+| 6    | Yellowstone Universal Disk Controller | Recommended               |
+| 7    | Empty                                 | -                         |
+
+
 <img src="images/a2p-saturn-rocket.jpg" width="400">
 
 Apple II Saturn Rocket 128K RAM used as 16K expansion card. Obtained from [here](https://www.tindie.com/products/retro_devices/apple-2-ii-plus-e-iie-2e-saturn-rocket-128k-ram/).
 
 A card like this is almost usually required to run software like ProDOS.
+
+<img src="images/a2p-a2pico.jpg" width="500">
+
+A2Pico multi-function cards used to load an Appli-Card firmware (Z80-CPU) and mouse interface.
 
 <img src="images/a2p-a2dviplus.jpg" width="500">
 
@@ -40,10 +58,6 @@ Apple II DVI Plus to enable use with modern HDMI monitor. This card also support
 A remake of the 80-column text mode card. Obtained from [here](https://www.tindie.com/products/denjhang/apple-ii-80-column-text-card-enig-gold-edition/).
 
 The composite out is unused as the A2DVI will display the output instead.
-
-<img src="images/a2p-a2pico.jpg" width="500">
-
-A2Pico multi-function cards used to load an Appli-Card firmware (Z80-CPU) and mouse interface.
 
 <img src="images/a2p-yellowstone.jpg" width="500">
 
