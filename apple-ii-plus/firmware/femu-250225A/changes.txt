@@ -1,0 +1,143 @@
+February 25, 2025, 250225A
+- Fixed a bug that was causing problems reading/writing some WOZ images, including Blank.WOZ 
+
+February 8, 2024, 240208A
+- Fixed menu bugs when opening the settings menu while in Smaport Hard Disk emulation mode.
+
+December 13, 2023, 231213A
+- For Smartport Unit 2 emulation mode, removed the timeout for bootstrapping and transition to Smartport
+  mode. The change should enable Unit 2 mode to work more reliably on Apple IIgs computers with a large RAM
+  disk that takes several seconds to initialize at start-up.
+
+December 11, 2023, 231211A
+- Added a "Settings Menu..." item to the top level of the menus, providing an alternate way to return to the
+  settings menu without needing to reset the device.
+- Miscellaneous menu and UI polishing.
+
+July 12, 2023, 230712A
+- Fixed "OVERRUN" error that could occur under GS/OS when using Smartport hard disk mode, if GS/OS is
+  repeatedly exited and re-entered while multiple Smartport disks are mounted.
+
+February 18, 2023, 230218A
+- Fixed memory corruption that could occur if the current directory on the SD card has more than 212 files.
+- Added a warning message if the directory contains more than 212 files. 
+
+February 3, 2023, 230203A
+- Added startup auto-mounting of the most recently used disk in D2 for Dual 5.25 Floppy emulation mode
+- Minor UI fixes
+
+November 28, 2022, 221128A
+- Fixed another bug that could prevent firmware updates from completing successfully when Emu is in
+  Smartport mode.
+- Oversized WOZ disk images are now truncated at 9216 bytes per track.
+- ProDOS names are now displayed for raw disk images whenever possible.
+- Added a new start-up screen for the Model A and Model B LCD display.
+
+November 22, 2022, 221122A
+- Smartport hard disk images can now be selected through the Floppy Emu directory menus, instead of using
+  fixed filenames for each hard disk image.
+- Fixed a bug that could prevent firmware updates from completing successfully when Emu is in Smartport mode.
+
+November 19, 2022, 221119A
+- Added a top-level settings menu that can be accessed by pressing SELECT during startup. There are
+  submenus for choosing the emulation mode, display brightness, and display type.
+
+November 18, 2022, 221118A
+- Introduced a new, simplified firmware naming scheme. Names are now YYMMDD with an A or M suffix for 
+  Apple II or Macintosh/Lisa version firmware.
+- Firmware updates are now distributed as a single file containing both the AVR and CPLD data, instead
+  of two separate files. This installation process is also now one step instead of two steps.
+- Implemented ticker tape scrolling of long filenames in the UI. Not available for Unidisk 3.5 emulation.
+- Delivered a major UI update for the Floppy Emu Model C to make better use of its higher-resolution display:
+  Added a new start-up screen, redesigned the mode info screen, and added disk icons and graphical elements 
+  throughout the other screens.
+
+October 27, 2022, apple-II-0.2W-F34-modelBC
+- Floppy Emu will now maintain the current track number and drive state after a disk is ejected.
+
+October 28, 2021, apple-II-0.2V-F34-modelBC
+- Improved behavior with disk eject. Addressed issue with phantom/double 3.5 inch eject. 
+- Sped up the device reset timing from power-on, reset button, or disk eject.
+
+October 13, 2021, apple-II-0.2U-F32-modelBC
+- Fixed a problem with some Apple II software installers failing to notice when a 3.5 inch disk was removed,
+  when running under GS/OS.
+- Fixed alphabetical sorting of filenames in disk menus.
+
+September 4, 2021, apple-II-0.2T-F30-modelBC
+- Smartport control commands are now handled better. Resolves GS/OS freezes during shutdown or restart, and 
+  related problems with other software.
+- Added a NAK/retry mechanism when there's a checksum failure on a Smartport Read or Status command. 
+- Smartport Status commands requesting invalid/unsupported status types will now receive a proper error reply.
+- Unidisk 3.5 emulation now continues running even while displaying the disk selection menu. It will respond
+  to commands as an empty drive, instead of not responding at all. Resolves some potential problems when
+  booting from other disks and when swapping disks.
+- Disk ejection handling for Unidisk 3.5 was improved. Disks can now be ejected and replaced through the
+  GS/OS Finder menu and other software-controlled disk ejects, and also through the Floppy Emu menu interface.
+- The Unidisk 3.5 disk icon that's displayed in GS/OS was updated to look like a 3.5 inch floppy disk.
+- Occasional errors CHECK PIN CLKO-L and CHECK PIN RESET should no longer occur.
+- Hidden system directories on the SD card will not be displayed in the disk selection menu.
+- OLED screen dimming behavior is now more consistent.
+
+April 22, 2021, apple-II-0.2R-F30-modelBC
+- Disabled the SELECT pull-down at startup and when operating in Smartport or Unidisk 3.5 emulation modes.
+
+February 5, 2021, apple-II-0.2Q-F29-modelBC
+- Writing to 5.25 inch WOZ and NIB disk images is now supported.
+- WOZ and NIB disk images can also be formatted from within DOS3.3, ProDOS, games, and most other software.
+- Fixed detection of 5.25 inch 2MG disk images.
+- Sped up filename sorting and scrolling in disk menus.
+
+January 28, 2021, apple-II-0.2P-F29-modelBC
+- Added dual 5.25 inch floppy drive emulation for Floppy Emu Model C. Do not use in combination with the
+  BMOW A/B Switch or Daisy Chainer. See instruction manual.
+- For auto-mounted 3.5 inch disks, reduced the delay from cold boot until the "disk inserted" signal is valid.
+- Flopy Emu will now retransmit a Smartport packet if the host NAKs it.
+
+November 11, 2020, apple-II-0.2N-F27-modelBC
+- More improvements and bug fixes for Apple II 5.25 inch floppy emulation mode. A greater number of copy-
+  protected WOZ disk images should now work.
+- Increased the SD card data transfer rate from 5 MHz to 10 MHz. Hold PREV button during power-up to disable.
+- The menu position is now restored correctly when exiting a subdirectory and returning to the parent directory.
+
+October 22, 2020, apple-II-0.2M-F25-modelBC
+- Fixed .WOZ image detection.
+- Minor bug fixes for Apple II 5.25 inch floppy emulation and WOZ disk images.
+- Don't show hidden files and directories in the menu.
+
+May 22, 2020, apple-II-0.2L-F25-modelBC
+- Added an optional Favorites menu for quick access to the most important floppy disk images on your SD card.
+  Create a config file favdisks.txt and copy it to the top-level root directory of your SD card. List the path 
+  to each favorite floppy disk image, one per line. For Apple II computers, the floppy automount behavior can 
+  also be configured using the automount directive on the first line of the config file. See examples.
+- For visually impaired users, the emulation mode can now be set more easily using a config file emumode.txt.
+  See examples.
+
+June 5, 2019, apple-II-0.2K-F25-modelBC
+- Fixed .2MG image detection in Smartport mode
+
+May 29, 2019, apple-II-0.2J-F25-modelBC
+- Improved daisy-chain compatibility during cold boot by configuring the mode-detection pulldowns sooner
+- Fixed OLED display timeout
+- Fixed filename display corruption during sorting of long filenames
+
+May 16, 2019, apple-II-0.2I-F25-modelBC
+- Smartport disk images can now have descriptive names like "SMART0-game-archive.PO". So long as the filename
+  begins with "SMART" plus a unit digit 0 through 3 it will be used for that Smartport unit. The rest of the name
+  is ignored.
+- Added support for 40-track / 160K 5.25 inch disks
+- For Model C, dim the OLED display after 30 seconds of inactivity
+- bug fix: NIB disks can now be ejected normally
+
+May 3 2019, apple-II-0.2H-F25-modelBC
+- Added "Smartport Unit 2" emulation mode. FOR APPLE IIGS ONLY.
+  Use "Smartport Unit 2" mode when you need Smartport Hard Disk emulation, and your Floppy Emu is daisy-chained 
+  behind an Apple 3.5 inch floppy drive. Normally an Apple IIgs in this configuration could only boot from the
+  Apple 3.5 inch drive (the 1st drive unit in slot 5). "Smartport Unit 2" mode causes the Floppy Emu to initially
+  appear as a 5.25 inch drive in slot 6, which the IIgs will boot from and load a small bootstrap program. This
+  program will modify the Smartport unit priority table in RAM to give Unit 2 priority over Unit 1, and then reboot
+  from slot 5. This makes it possible to boot from the Floppy Emu Smartport hard disk even when it is Unit 2.
+
+
+
+

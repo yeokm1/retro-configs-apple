@@ -1,0 +1,24 @@
+Boot Applicard, StarCard or Freed Z80 card under ProDOS.  Support startup w/o floppy disk, transfer files between CP/M and ProDOS.
+
+Updated:
+
+3/10/2009
+
+Include some drivers so folks will have them in one spot.  New files are:
+
+DISK35.DVR  -  Support Apple 3.5" drives. Now works on SuperDrive (800K
+              mode only! - May do horrid things on a HD disk)
+
+RAMWK0.DVR
+RAMWK1.DVR  -  Applied Engineering RamWorks ramdisk driver.  If you are
+              running under ProDOS, you MUST use the 'ramwk1.dvr' to
+              reserve aux memory page 1 for ProDOS itself.
+
+FAST2E80.DVR - Fixes problem with inverse alpha characters on enhanced
+              IIe.  If you are seeing MouseText characters instead of
+              letters, you need this.
+
+RDSK512.DVR -  Configure on board memory on 512k Freed Z80 card as a 390k
+              ramdisk.  Do NOT use on 128k cards!
+
+--

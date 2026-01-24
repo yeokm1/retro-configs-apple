@@ -1,7 +1,15 @@
 # retro-configs-apple
 Collection of my setup configurations and instructions of my retro Apple machines.
 
-# 1. [Power Mac G4 (Mirrored Drive Doors FW800)](powermac-g4-mdd-p58) (2003)
+# 1. [Apple II Plus](apple-ii-plus) (1979)
+
+This is one of the earliest Apple machines. The Apple II Plus was the second generation Apple II computer and was released in 1979.
+
+<img src="apple-ii-plus/images/a2p-front.jpg" width="600">
+
+AppleDOS 3.3 loaded from Floppy Emu.
+
+# 2. [Power Mac G4 (Mirrored Drive Doors FW800)](powermac-g4-mdd-p58) (2003)
 
 <img src="powermac-g4-mdd-p58/images/powermacg4-open.jpg" width="600">
 
@@ -13,7 +21,7 @@ However native OS 9.2.2 booting can still be done with some workarounds.
 
 I will install both Mac OS 9.2.2 and OS X 10.4 Tiger on this system as a dual boot configuration.
 
-# 2. [PowerBook G4 A1025 (Titanium)](powerbook-g4-titanium-a1025) (2002)
+# 3. [PowerBook G4 A1025 (Titanium)](powerbook-g4-titanium-a1025) (2002)
 
 <img src="powerbook-g4-titanium-a1025/images/powerbookg4ti-os9.jpg" width="600">
 
@@ -21,7 +29,7 @@ This laptop was released in Nov 2002 and is the last of the PowerBook G4 line th
 
 This guide will be about installing both Mac OS 9.2.2 and OS X 10.4 Tiger on this system as a dual boot configuration.
 
-# 3. [12" iBook G4](ibook-g4-a1054) (Late 2004)
+# 4. [12" iBook G4](ibook-g4-a1054) (Late 2004)
 
 <img src="ibook-g4-a1054/images/ibookg4-system.jpg" width="600">
 
@@ -29,7 +37,7 @@ This laptop was released in Oct 2004. It cannot natively boot from Mac OS 9.
 
 This guide will be about installing both OS X 10.4 Tiger and Classic Mode on this system.
 
-# 4. [Macbook (Early 2008)](macbook-2008)
+# 5. [Macbook (Early 2008)](macbook-2008)
 
 <img src="macbook-2008/images/mb08-system.jpg" width="500">
 
@@ -37,7 +45,7 @@ This Macbook was released in early 2008. This black version is relatively uncomm
 
 This machine is installed with 10.6 Snow Leopard and Windows 10 32-bit Bootcamp.
 
-# 5. [Mac LC III (1993)](mac-lc-iii)
+# 6. [Mac LC III (1993)](mac-lc-iii)
 
 <img src="mac-lc-iii/images/external/lc3-set.jpg" width="500">
 

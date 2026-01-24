@@ -1,0 +1,7 @@
+automount 2  # Apple II floppy automount behavior: 0 - never automount, 1 - automount first disk in favorites list, 2 - automount most recently used disk (default is 2)
+Apple II stuff/5.25 inch 140K/AppleWorks 2.0 Boot.dsk
+Apple II stuff/5.25 inch 140K/Castle Wolfenstein.dsk
+Apple II stuff/5.25 inch 140K/Frogger.nib
+Apple II stuff/5.25 inch 140K/DOS33 Master.DO
+Apple II stuff/3.5 inch 800K/GSOS 6.0.1/Disk 2 GSOS 601 System.2mg
+Apple II stuff/3.5 inch 800K/ADTPro 2.0.1.po

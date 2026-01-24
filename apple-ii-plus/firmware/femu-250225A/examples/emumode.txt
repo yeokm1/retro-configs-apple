@@ -1,0 +1,19 @@
+4
+--- everything after the first line will be ignored
+This file simplifies changing the emulation mode, for visually impaired users.
+Write the ID number of the desired emulation mode on the first line of this file.
+Then copy this file to the top-level root directory of your SD card. To change the
+emulation mode, press the RESET button and then immediately press and hold the 
+SELECT button for three seconds. The emulation mode will be updated according to
+the setting in this file, without any further button presses needed.
+
+ID numbers for the available emulation modes:
+0: Macintosh floppy
+1: Macintosh HD20 type hard disk
+2: Lisa Floppy
+3: Apple II 3.5 inch floppy
+4: Apple II 5.25 inch floppy
+5: Apple II Smartport hard disk
+6: Apple II Unidisk 3.5
+7: Apple II Smartport Unit 2
+8: Apple II Dual 5.25 inch floppy
