@@ -37,13 +37,13 @@ This laptop was released in Oct 2004. It cannot natively boot from Mac OS 9.
 
 This guide will be about installing both OS X 10.4 Tiger and Classic Mode on this system.
 
-# 5. [Macbook (Early 2008)](macbook-2008)
+# 5. [Macbook (Mid 2007)](macbook-2007)
 
-<img src="macbook-2008/images/mb08-system.jpg" width="500">
+<img src="macbook-2007/images/mb07-system.jpg" width="500">
 
-This Macbook was released in early 2008. This black version is relatively uncommon and cost more then.
+This Macbook was released in mid 2007. This black version is relatively uncommon and cost more then.
 
-This machine is installed with 10.6 Snow Leopard and Windows 10 32-bit Bootcamp.
+This machine is installed with 10.6 Snow Leopard.
 
 # 6. [Mac LC III (1993)](mac-lc-iii)
 
