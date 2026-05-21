@@ -10,6 +10,10 @@ AppleDOS 3.3 loaded from Floppy Emu.
 
 Back of the machine containing extension cables for PS/2 keyboard, Floppy, USB mouse and HDMI.
 
+My talk video on restoring this machine:
+
+[![Apple II Restoration](https://img.youtube.com/vi/EDgKVkzuKyk/default.jpg)](https://youtu.be/EDgKVkzuKyk)
+
 ## Hardware
 
 <img src="images/a2p-mobo-roms-replaced.jpg" width="400">
